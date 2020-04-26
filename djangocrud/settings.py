@@ -24,7 +24,7 @@ SITE_NAME = "Movie Library"
 SECRET_KEY = 'aho76q@6!#v3%+e^v$&+ocbch+pm!*v&-=g)6ht38@&os8%-er'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -128,3 +128,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
+#STATIC_ROOT = '/usr/local/apps/MovieLibrary/Backend/MovieLibrary-DjAngularBackend/static'
