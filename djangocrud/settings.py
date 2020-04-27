@@ -29,7 +29,13 @@ DEBUG = False
 ALLOWED_HOSTS = ['*']
 
 CORS_ORIGIN_WHITELIST = [
-    "http://localhost:4200"
+#    "http://localhost:4200",
+    "https://bubai666sen.github.io/MovieLibrary-DjAngularSPA/",
+    "http://bubai666sen.github.io/MovieLibrary-DjAngularSPA/",
+    "https://bubai666sen.github.io/",
+    "http://bubai666sen.github.io/",
+    "http://movie-library-frontend.s3-website.us-east-2.amazonaws.com/",
+    "https://movie-library-frontend.s3-website.us-east-2.amazonaws.com/"   
 ]
 
 
